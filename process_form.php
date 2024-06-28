@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Oops! Something went wrong and we couldn't send your message.";
     }
 } else {
-    // Handle if accessed directly
+    // Handled if accessed directly
     echo "Method not allowed!";
 }
 ?>
